@@ -8,8 +8,10 @@ exports.handler = function handler(event, context, callback) {
         callback(errorResponse);
         return;
     }
+	
+	const optns = event.options || [];
 
-    wkhtmltopdf(event.html)
+    wkhtmltopdf(event.html, optns)
         .then(buffer => {
             callback(null, {
                 data: buffer.toString("base64")
