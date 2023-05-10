@@ -24,11 +24,6 @@
     "husky": "^4.2.1",
     "lint-staged": "^10.0.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "npm run --silent lint:staged"
