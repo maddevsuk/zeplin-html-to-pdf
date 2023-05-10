@@ -8,8 +8,8 @@ Resources:
       Runtime: nodejs12.x
       CodeUri: .
       Description: A html to pdf converter lambda function
-      MemorySize: 128
-      Timeout: 30
+      MemorySize: 4000
+      Timeout: 120
       Environment:
         Variables:
           FONTCONFIG_PATH: /var/task/fonts

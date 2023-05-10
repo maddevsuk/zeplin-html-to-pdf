@@ -1,3 +1,4 @@
 {
-    "html": "<html>example event</html>"
+    "html": "<html><head></head><body>hello world</body></html>",
+    "s3HtmlContentUrl": ""
 }
