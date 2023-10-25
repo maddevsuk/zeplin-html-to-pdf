@@ -1,4 +1,6 @@
 {
-    "html": "<html><head></head><body>hello world</body></html>",
-    "s3HtmlContentUrl": ""
+    "s3Params": {
+        "Bucket": "mad-html-to-pdf-staging",
+        "Key": "lambda-test-file"
+    }
 }
